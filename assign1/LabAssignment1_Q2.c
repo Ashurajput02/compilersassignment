@@ -129,7 +129,7 @@ void parse(char *text, int length) {
 
 
 int main() {
-    FILE *file = fopen("test.txt", "r");
+    FILE *file = fopen("sample.c", "r");
     if (file == NULL) {
         printf("Error: Could not open file.\n");
         return 1;
